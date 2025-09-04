@@ -21,12 +21,13 @@ const input=document.getElementById(num).value;
 const nu=parseInt(input);
 if(isNaN(nu)||nu<0)
 {
-document.getElementById("result").innerText="Please enter non negative number";
+document.getElementById(result).innerText="Please enter non negative number";
 return result;
 }
 fact(nu);
-document.getElementById("result").innerText=" The factorial of ${nu} is ${result}";
+document.getElementById(result).innerText=" The factorial of ${nu} is ${result}";
 }
 </script>
 </body>
 </html>
+
