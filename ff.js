@@ -12,7 +12,7 @@
 function fact(n)
 {
 if(n===0||n===1) return 1;
-let result=n*fact(n);
+let result=n*fact(n-1);
 return result;
 }
 function factcal()
@@ -30,5 +30,6 @@ document.getElementById("result").innerText=" The factorial of ${nu} is ${result
 </script>
 </body>
 </html>
+
 
 
